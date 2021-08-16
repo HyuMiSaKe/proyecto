@@ -1,0 +1,39 @@
+.contenedor{
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 0px;
+background: linear-gradient(179.04deg, #646264 0.82%, #ffffff 97.99%);
+}
+
+.imagen{
+    height: 200px;
+    border-radius: 50%; 
+    background-color: blueviolet;
+    position: absolute;
+    margin: auto;
+    left:0%;
+    right: 0ch;
+    top:0cm;
+    bottom: 0cm;
+    border-radius:150px;
+    border:10px solid rgb(114, 61, 81);
+}
+.texto{
+    font-family: 'Indie Flower';
+    margin-right: 3px;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left: 420px;
+    top: 590px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    text-align:center;
+    color: #000000;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
